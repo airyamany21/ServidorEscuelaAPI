@@ -1,0 +1,31 @@
+{
+  "name": "servidor",
+  "version": "1.0.0",
+  "main": "app.js",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "morgan": "^1.10.0",
+    "mysql2": "^2.1.0",
+    "sequelize": "^5.21.10",
+    "vue-axios": "^2.1.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon app.js"
+  },
+  "author": "Airyamany21",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/airyamany21/escuelaAPI2.git"
+  },
+  "bugs": {
+    "url": "https://github.com/airyamany21/escuelaAPI2/issues"
+  },
+  "homepage": "https://github.com/airyamany21/escuelaAPI2#readme",
+  "description": ""
+}
